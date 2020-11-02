@@ -1,0 +1,20 @@
+{
+  "/api": {
+    "target": "https://jsonplaceholder.typicode.com/",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    },
+    "logLevel": "debug"
+  },
+  "/pubg": {
+    "target": "https://api.pubg.com/shards/",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/pubg": ""
+    },
+    "logLevel": "debug"
+  }
+}
